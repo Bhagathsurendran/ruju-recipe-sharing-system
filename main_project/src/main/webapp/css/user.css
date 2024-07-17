@@ -1,0 +1,870 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.poppins-medium {
+	      font-family: "Poppins", sans-serif;
+	      font-weight: 500;
+	      font-style: normal;
+	 }
+body{
+    background-color: black;
+    overflow-x: hidden;
+    scroll-behavior: smooth !important;
+}
+html{
+	scroll-behavior: smooth;}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+       
+        #UserDetails-holder{
+            width: 69%;
+            height: 100%;
+            
+        }
+        .UserDetails{
+            margin-top: 8rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+        .userHead{
+          
+            font-weight: 600;
+        }
+        .userText{
+            font-weight: 500;
+            padding-left: 1rem;
+        }
+        .userbtn{
+            height: 40px;
+            width: 120px;
+            border-radius: 20px;
+            border: 0;
+            background-color: rgb(49, 49, 49);
+            color: white;
+            font-size: 16px;
+        }
+
+ 		#profileHolder{
+            height: 500px;width: 600px;background-color: rgb(255, 255, 255);position: fixed;top:50%;border-radius: 15px;transform:translate(-50%,-50%);left:50%;z-index:100;
+            display: flex;cursor: default;
+        }
+        .admin-btn-holder{
+            padding-top: 1rem;padding-left: 1rem;display: flex;flex-direction: column;gap: 20px;
+            
+        }
+        .admin-btn{
+       			color: rgb(255, 255, 255);font-family: sans-serif;font-size: 25px;height: 50px;width: 150px;background-color: rgb(49, 49, 49);border-radius: 20px;display: flex;align-items: center;justify-content: center;
+        }
+        .admin-btn-border{
+            border-right: 1px solid black;width: 200px;
+        }
+        #UserDetails-holder{
+            width: 69%;height: 100%;    
+        }
+        .UserDetails{
+            margin-top: 2rem;display: flex;flex-direction: column;align-items: center;gap: 15px;
+        }
+        .userHead{
+            font-weight: 600;
+        }
+        .userText{
+            font-weight: 500;
+            padding-left: 1rem;
+        }
+        .userbtn{
+            height: 40px;
+            width: 120px;
+            border-radius: 20px;
+            border: 0;
+            background-color: rgb(49, 49, 49);
+            color: white;
+            font-size: 16px;
+        }
+
+/*------------------------------ navbar ------------------------------*/
+
+.hamburger{
+   display: none;
+   width: 40px;
+   height: 40px;
+}
+#hamburgerNav{
+    display: none;
+    height: calc(100vh);
+    background-color: black;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+#hamburgerNav-holder{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+}
+#closeBtn{
+    display: none;
+    margin-right: 1.5rem;
+}
+.link-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 95%;
+    align-items: center;
+}
+.link-parent a{
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    height: 10%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-parent a:hover{
+    background-color: rgb(94, 94, 94);
+}
+
+nav{
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    height: 3.5rem;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.na-logo{   
+    position: absolute;
+    left: 3rem;
+}
+.nav-logo-text{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 25px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    width: 100px;
+    text-align: center;
+}
+
+
+nav li button{
+    height: 20px;
+    width: 20px;
+}
+
+.line{
+    background-color: black;
+    width: 100%;
+    height: 7px;
+    border-radius: 3px;
+    z-index: 101;
+}
+
+/* -------------------------------section-1------------------------------- */
+
+.section-1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-1-head{    
+    position: absolute;
+    font-size: 300px;
+    color: white;
+}
+    .section-1-video{
+        height: 720px;
+        width: 100%;
+    }   
+
+/* -------------------------------section-2------------------------------- */
+
+.section-2{
+    height: 700px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+}
+.section-2-head{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 100px;
+    
+}
+.section-2-holder{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+}
+.section-2-holder p{
+    width: 700px;
+    margin-top: 100px;
+}
+.section-2-holder img{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.rotate {
+    animation: rotation 40s infinite linear;
+}
+
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+/* -------------------------------section-3------------------------------- */
+.section-3{
+    position: relative;
+    height: 730px;
+}
+.section-3-header{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight:700;
+    text-transform: uppercase;
+}
+.section-3-holder{
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-evenly;
+}
+
+.card{
+	
+    cursor: pointer; 
+    width: 500px;
+    background-size: cover;
+    height: 500px;
+    border-radius: 10px;
+    transition: .3s all;
+}
+
+.card p{
+    height:100%;
+    color: white;
+    font-size: 50px;    
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+/* -------------------------------section-4------------------------------- */
+.section-4{
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    border-top: 1px gray solid;
+}
+
+
+
+
+@media screen and (max-width:1651px){
+
+}
+@media screen and (max-width:1550px){ 
+
+}
+@media screen and (max-width:1450px){
+
+    .section-1-video{
+        height: 650px;
+    }      
+}
+@media screen and (max-width:1350px){
+
+    .section-1-video{
+        height: 600px;
+    }   
+    .section-2{
+        height: 600px;
+        margin-top: -10px;
+    }
+    .section-2-holder img{
+        height: 400px;
+        width: 400px;
+        margin-left: 80px;
+    }
+    .card p{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+}
+@media screen and (max-width:1250px){
+
+    .section-1-head{    
+        font-size: 280px;
+    }
+    .section-2{
+        height: 550px;
+        margin-top: -10px;
+    }
+    .section-2-holder p{
+        width: 550px;
+        margin-top: 100px;
+    }
+    .section-3{
+        height: 600px;
+    }
+    .section-3-holder{
+        padding-top: 40px;
+    }
+    .section-3-header{
+        font-size: 35px;
+        font-weight:700;
+    }
+    .card{
+        width: 420px;
+        height: 420px;
+    }
+    .card p{
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width:1200px){
+    .section-1-video{
+        height: 580px;
+    }  
+    .section-2{
+        height: 500px;
+        margin-top: -10px;
+    }
+    .section-2-holder img{
+        height: 350px;
+        width: 350px;
+        margin-left: 80px;
+    }
+    .section-3{
+        height: 600px;
+    }
+  
+    .card{
+        width: 400px;
+        height: 400px;
+    }
+    .card p{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+}
+@media screen and (max-width:1150px){
+    .section-1-head{    
+        font-size: 260px;
+    }
+    .section-1-video{
+        height: 550px;
+    }  
+    .section-2{
+        height: 480px;
+        margin-top: -10px;
+    }
+    .section-2-holder p{
+        width: 500px;
+        margin-top: 100px;
+    }
+    .section-2-holder img{
+        height: 330px;
+        width: 330px;
+        margin-left: 100px;
+    }
+    
+
+    .section-3{
+        height: 560px;
+    }
+    .section-4{
+        height: 50px;
+        border-top: 1px gray solid;
+    }
+
+
+
+}
+@media screen and (max-width:1050px){
+
+    .section-1-head{    
+        font-size: 230px;
+    }
+    .section-1-video{
+        height: 500px;
+    }  
+    .section-2{
+        height: 470px;
+        margin-top: -10px;
+    }
+    .section-2-holder p{
+        width: 450px;
+        margin-top: 100px;
+    }
+    .section-2-holder img{
+        height: 330px;
+        width: 330px;
+        margin-left: 100px;
+    }
+    .card{
+        width: 400px;
+        height: 400px;
+    }
+    .card p{
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width:991px){
+
+
+    .section-1-head{    
+        font-size: 210px;
+    }
+    .section-2-holder p{
+        width: 430px;
+        margin-top: 100px;
+    }
+    .section-2-holder img{
+        height: 330px;
+        width: 330px;
+        margin-left: 80px;
+    }
+    .section-3{
+        height: 530px;
+    }
+    .card{
+        height: 370px;
+        width: 370px;
+    }
+   
+}
+@media screen and (max-width:950px){
+    .section-1-head{    
+        font-size: 210px;
+    }
+    .section-2-holder p{
+        width: 420px;
+        margin-top: 70px;
+    }
+    .section-2-holder img{
+        height: 330px;
+        width: 330px;
+        margin-left: 40px;
+    }
+    .section-3{
+        height: 510px;
+    }
+   
+    .card{
+        height: 360px;
+        width: 360px;
+    }
+}
+@media screen and (max-width:920px){
+
+
+
+    .section-1-head{    
+        font-size: 210px;
+    }
+    .section-2-holder p{
+        width: 420px;
+        margin-top: 70px;
+    }
+    .section-2-holder img{
+        height: 330px;
+        width: 330px;
+        margin-left: 40px;
+    }
+    .section-3{
+        height: 510px;
+    }
+   
+}
+@media screen and (max-width:850px){
+
+    .section-1-head{    
+        font-size: 210px;
+    }
+    .section-2-holder p{
+        width: 350px;
+        margin-top: 70px;
+    }
+    .section-2-holder img{
+        height: 330px;
+        width: 330px;
+        margin-left: 30px;
+    }
+    .section-3{
+        height: 450px;
+    }
+    .card{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:810px){
+
+    
+    /* hamburger */
+    nav{
+        display: flex;
+        height: 3rem;
+    }
+    nav ul{
+        display: none;
+    }
+    .hamburger{
+        margin-left: 90%;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        justify-content: space-evenly;
+    }
+    .close{
+        cursor: pointer;
+    }
+
+    .section-2{
+        height: 750px;
+        margin-top: -10px;
+        width: 100%;
+    }
+    .section-2-head{
+        font-size: 50px;
+        font-family: sans-serif;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .section-2-holder{
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 100px;
+        color: white;
+    }
+    .section-2-holder p{
+        width: 740px;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+    .section-2-holder img{
+        height: 400px;
+        width: 400px;
+        margin-top: 80px;
+        margin-left: 13%;
+        
+    }
+    .section-3{
+        height: 440px;
+    }
+    .section-3-holder{
+        padding-top: 30px;
+    }
+    .card{
+        width: 290px;
+        height: 290px;
+    }
+    .card p{
+        font-size: 35px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width:767px){
+
+    .section-2{
+        height: 750px;
+        margin-top: -10px;
+        width: 100%;
+    }
+    .section-2-head{
+        font-size: 50px;
+        font-family: sans-serif;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .section-2-holder{
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 100px;
+        color: white;
+    }
+    .section-2-holder p{
+        width: 700px;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+    .section-2-holder img{
+        height: 400px;
+        width: 400px;
+        margin-top: 80px;
+        margin-left: 12%;
+        
+    }
+    .section-3{
+        height: 430px;
+    }
+    .section-3-holder{
+        padding-top: 30px;
+    }
+    .card{
+        width: 280px;
+        height: 280px;
+    }
+    .card p{
+        font-size: 35px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width:730px){
+
+
+    .section-2{
+        height: 750px;
+        margin-top: -10px;
+        width: 100%;
+    }
+    .section-2-head{
+        font-size: 50px;
+        font-family: sans-serif;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .section-2-holder{
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 100px;
+        color: white;
+    }
+    .section-2-holder p{
+        width: 660px;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+    .section-2-holder img{
+        height: 400px;
+        width: 400px;
+        margin-top: 80px;
+        margin-left: 10%;
+        
+    }
+    .section-3{
+        height: 420px;
+    }
+    .section-3-holder{
+        padding-top: 30px;
+    }
+    .card{
+        width: 270px;
+        height: 270px;
+    }
+    .card p{
+        font-size: 35px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width:700px){
+
+
+    .section-2{
+        height: 660px;
+        margin-top: -10px;
+    }
+    .section-2-head{
+        margin-top: -10px;
+    }
+    .section-2-holder{
+        margin-top: 50px;
+        margin-left: 100px;
+        color: white;
+    }
+    .section-2-holder p{
+        width: 630px;
+    }
+    .section-2-holder img{
+        height: 400px;
+        width: 400px;
+        margin-top: 50px;
+        margin-left:8%;
+        
+    }
+    .section-3{
+        height: 420px;
+    }
+    .section-3-holder{
+        padding-top: 30px;
+    }
+    .card{
+        width: 270px;
+        height: 270px;
+    }
+    .card p{
+        font-size: 35px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width:650px){
+
+    .section-1-video{
+        height: 430px;
+    }
+    .section-2{
+        height: 660px;
+        margin-top: -10px;
+    }
+    .section-2-head{
+        margin-top: -10px;
+    }
+    .section-2-holder{
+        margin-top: 50px;
+        margin-left: 100px;
+        color: white;
+    }
+    .section-2-holder p{
+        width: 570px;
+    }
+    .section-2-holder img{
+        height: 380px;
+        margin-left: 15px;
+    }
+
+
+}
+@media screen and (max-width:600px){
+
+
+
+    .section-1-video{
+        height: 430px;
+    }
+    .section-1-head{    
+        font-size: 150px;
+    }
+    .section-2{
+        height: 660px;
+        margin-top: -10px;
+    }
+    .section-2-head{
+        margin-top: -10px;
+    }
+    .section-2-holder{
+        margin-top: 50px;
+        margin-left: 100px;
+        color: white;
+    }
+    .section-2-holder p{
+        width: 530px;
+    }
+    .section-2-holder img{
+        height: 380px;
+        margin-top: 50px;
+        margin-left: -2%;
+    }
+    .section-3{
+        height: 1070px;
+    }
+    .section-3-holder{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+    .card{
+        width: 85%;
+        height: 450px;
+    }
+    .card p{       
+        font-size: 50px;
+    }
+
+
+}
+@media screen and (max-width:575px){
+
+    .section-1-video{
+        height: 430px;
+    }
+    .section-1-head{    
+        font-size: 150px;
+    }
+    .section-2{
+        height: 660px;
+        margin-top: -10px;
+    }
+    .section-2-head{
+        margin-top: -10px;
+    }
+    .section-2-holder{
+        margin-top: 50px;
+        margin-left: 100px;
+        color: white;
+    }
+    .section-2-holder p{
+        width: 500px;
+    }
+    .section-2-holder img{
+        height: 380px;
+        margin-top: 50px;
+        margin-left: -2%;
+    }
+    .section-3{
+        height: 920px;
+    }
+    .card{
+        width: 83%;
+        height: 370px;
+    }
+    .card p{       
+        font-size: 40px;
+    }
+
+}
+
