@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+}
+nav{
+    background-color: rgb(255, 255, 255);height: 3rem;width: 100%;top: 0;z-index: 10;position: fixed;display: flex;justify-content: center;
+}
+.na-logo{
+    height: 100%;display: flex;justify-content: center;align-items: center;margin-left: 3rem;
+}
+.nav-logo-text{
+    font-family: sans-serif;font-weight: 700;color: black;font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+#section-1{
+    width: 100%;height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-1-text{
+    padding-left: 5rem;
+}
+.section-1-btn{
+    padding-right: 5rem;
+}
+.section-1-btn button{
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    transition: .4s;
+}
+.section-1-btn button:hover{
+    scale: 1.1;
+}
+
+#section-2{
+    width: 100%;height: 400px;background-color: red;display: flex;align-items: center;
+   }
+   .section-2-text{
+    height: 160px;width: 250px;background-color: rgba(236, 255, 255, 0.785);margin-left: 17rem;border-radius: 10px;display: flex;flex-direction: column;justify-content: center;
+   }
+   .section-2-text P{
+    margin-left: 15px;
+   }
+
+   #section-3{
+    height: 900px;width: 100%;display: flex;
+  }
+  .section-3-left{
+    height: 900px;width: 50%;display: flex;flex-direction: column;align-items: center;
+  }
+  .section-3-ingredients{
+        height: 500px;width: 80%;background-color: rgb(236, 236, 236);border-radius: 20px;margin-top: 5rem;
+  }
+  .section-3-ingredients-head{
+         width: 100%;height: 10%;border-bottom: 1px solid gray;display: flex;align-items: center;
+  }
+  .section-3-needed{
+        height: 200px;width: 80%;background-color: rgb(254, 254, 254);border-radius: 20px;margin-top: 2rem;
+  }
+  .section-3-needed-head{
+        width: 100%;height: 20%;border-bottom: 1px solid gray;display: flex;align-items: center;
+  }
+  .section-3-right{
+        height: 900px;width: 50%;background-color: rgb(0, 0, 0);
+  }
